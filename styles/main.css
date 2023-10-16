@@ -1,0 +1,25 @@
+@import url(header.css);
+@import url(main-content.css);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 1px;
+
+  --color-grey-1: #f8f9fa;
+  --color-grey-2: #dadce0;
+  --text-color-black: rgba(0, 0, 0, 0.87);
+}
+
+body * {
+  color: var(--text-color-black);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
