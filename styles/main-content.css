@@ -5,8 +5,9 @@
 }
 
 .main-content__logo {
-  width: 272rem;
   height: 92rem;
+  margin: 36px auto 18px;
+  width: 272rem;
 }
 
 .main-content__search {
@@ -14,12 +15,38 @@
   display: flex;
   flex-direction: column;
   font-size: 13rem;
-  max-width: 585rem;
+  width: 100%;
+  max-width: 578rem;
   padding: 20rem;
+  position: relative;
 }
 
 .main-content__search input {
+  border: 1px solid #dadce0;
+  border-radius: 20rem;
+  cursor: text;
+  padding-inline: 40rem;
+  min-height: 44rem;
+  outline: none;
   width: 100%;
+}
+
+.main-content__search input:hover {
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+.main-content__search img {
+  width: 20rem;
+  height: 20rem;
+  left: 30rem;
+  position: absolute;
+  top: 32rem;
+  z-index: 99;
+}
+
+.main-content__buttons {
+  margin-top: 28rem;
 }
 
 .main-content__buttons a {
@@ -28,6 +55,7 @@
   border-radius: 4rem;
   cursor: pointer;
   padding: 10rem 16rem;
+  margin-inline: 4rem;
   text-transform: capitalize;
 }
 
