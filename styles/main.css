@@ -1,5 +1,6 @@
 @import url(header.css);
 @import url(main-content.css);
+@import url(footer.css);
 
 * {
   box-sizing: border-box;
@@ -12,6 +13,7 @@
 
   --color-grey-1: #f8f9fa;
   --color-grey-2: #dadce0;
+  --color-grey-3: #f2f2f2;
   --text-color-black: rgba(0, 0, 0, 0.87);
 }
 
@@ -23,6 +25,8 @@ body {
 body {
   display: flex;
   flex-direction: column;
+  font-size: 14rem;
+  text-transform: capitalize;
 }
 
 body * {
