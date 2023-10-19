@@ -14,7 +14,7 @@
 * :octocat: [Authors](#authors)
 
 ## Description
-Clone of Google Website, to pratice HTML and CSS concepts, such as semantch, CSS variables, selectors, pseudo-classes and responsive layout. 
+Clone of Google Website, to practice HTML and CSS concepts, such as semantic, CSS variables, selectors, pseudo-classes and responsive layout.
 
 ## Demo
 ![](demo/demo.gif)
