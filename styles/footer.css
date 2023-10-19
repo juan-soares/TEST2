@@ -9,6 +9,10 @@
   padding: 15rem 30rem;
 }
 
+.footer__content * {
+  color: var(--text-color-grey);
+}
+
 .footer__content:not(:last-child) {
   border-bottom: 1px solid #dadce0;
 }
@@ -26,9 +30,15 @@
 }
 
 .footer__links-list li:not(:first-child) {
-  padding-left: 15rem;
+  padding-left: 30rem;
 }
 
 .footer__link:hover {
   text-decoration: underline;
+}
+
+@media (min-width: 580px) {
+  .footer__nav {
+    flex-direction: row;
+  }
 }

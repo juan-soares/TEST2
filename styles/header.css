@@ -1,7 +1,8 @@
 .header {
   align-items: center;
   display: flex;
-  gap: 10rem;
+  gap: 20rem;
+  height: 60rem;
   justify-content: end;
   padding: 10rem;
   width: 100%;
@@ -17,8 +18,16 @@
 }
 
 .header__icon {
-  cursor: pointer;
-  height: 40rem;
-  margin-left: 10rem;
+  border-radius: 25rem;
+  padding: 6rem;
   width: 40rem;
+}
+
+.header__icon:not(:first-of-type) {
+  margin-left: 10rem;
+  padding: 0;
+}
+
+.header__icon:first-of-type:hover {
+  background-color: var(--color-grey-3);
 }
